@@ -80,7 +80,7 @@ a:hover {
 .bottom-container {
     background-color: #66BFBF;
     position: relative;
-    padding-top: 40px;
+    padding-top: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -156,8 +156,9 @@ a:hover {
 .CR {
     color: #EAF6F6;
     font-size: 0.85em;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 0;
+    margin-top: 0;
     text-align: center;
 }
 
