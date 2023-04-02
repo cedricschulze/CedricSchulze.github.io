@@ -1,6 +1,6 @@
 body {
-    color: black;                                        /*color: #40514E;*/
-    background-color: #cce8e8;      /*#cce8e8 Gute Farbe*/
+    color: black;                                        
+    background-color: #cce8e8;
     margin: 0;
     text-align: center;
     font-family: "Merriweather", serif;
@@ -19,8 +19,10 @@ h1 {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
     color: #66BFBF;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 h3 {
@@ -30,6 +32,7 @@ h3 {
 
 p {
     line-height: 2;
+    text-align: justify;
 }
 
 hr {
@@ -63,8 +66,15 @@ a:hover {
     height: 100vh;
 }
 
+.hobby-container {
+    margin: 100px auto 50px auto;
+    width: 30%;
+    text-align: justify;
+}
+
 .middle-container {
     margin-top: 100px;
+
 }
 
 .bottom-container {
@@ -99,7 +109,19 @@ a:hover {
 .skill-row {
     margin: 100px auto 100px auto;
     width: 50%;
-    text-align: left;
+    text-align: justify;
+}
+
+.fpv {
+    width: 20%;
+    position: relative;
+    margin-left: 25%;
+}
+
+.fußball {
+    width: 8%;
+    position: relative;
+    margin-left: 20%;
 }
 
 .computer {
@@ -136,6 +158,7 @@ a:hover {
     font-size: 0.85em;
     padding: 20px 0;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .name1 {
@@ -148,7 +171,6 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 .name2 {
     font-family: 'Montserrat', sans-serif;
